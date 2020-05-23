@@ -1,0 +1,57 @@
+@import "colores";
+@import "fuentes";
+$colorletra: $negro;
+
+.pie {
+    margin: 5px;
+    padding: 5px;
+    grid-area: piee;
+    h1{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        // top: 50px;
+        letter-spacing: 0;
+        line-height: 22px;
+        @include fuente("IBMPlexMono",14px,$colorletra,"none");
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            margin: 5px;
+            padding: 5px;
+            i {
+                color: $negro1;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px){
+    .pie {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+        h1{
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: 28px;
+            @include fuente("IBMPlexMono",16px,$colorletra,"none");
+        }
+        .social {
+            display: flex;
+            justify-content: flex-end;
+            list-style-type: none;
+            li {
+              margin: 30px;
+                i {
+                    color: $negro1;
+                }
+            }
+        }
+    }
+    
+}

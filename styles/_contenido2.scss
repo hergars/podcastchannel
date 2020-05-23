@@ -1,0 +1,61 @@
+@import "colores";
+@import "fuentes";
+$colorletra: $blanco;
+
+.contenido2{
+    grid-area: conte2;
+    position: relative;
+    height: 1300px;
+    background-image: linear-gradient($azul1g,$azul2g);
+    clip-path: polygon(
+      0% 3%,
+      100% 0,
+      100% 90%,
+      0 calc(100% - 5vw)
+    );
+
+    h1{
+        margin: 25px;
+        padding: 10px;
+        line-height: 42px;
+        @include fuente("IBMPlexSans",36px,$colorletra,"none");
+    }
+    iframe{
+      display: block;
+      width: 584px;
+      height: 232px;
+    }
+}
+
+
+@media screen and (min-width: 800px){
+  .contenido2{
+    grid-area: conte2;
+    height: 900px;
+    background-image: linear-gradient($azul1g,$azul2g);
+    clip-path: polygon(
+      0% 10%,
+      100% 0,
+      100% 90%,
+      0 calc(100% - 5vw)
+    );
+
+    h1{
+        margin: 100px 0 0 200px;
+        width: 209px;
+        height: 62px;
+        padding: 10px;
+        line-height: 42px;
+        @include fuente("IBMPlexSans",48px,$colorletra,"none");
+    }
+    .video{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 584px;
+      height: 232px;
+      padding: 30px;
+    }
+}
+
+}

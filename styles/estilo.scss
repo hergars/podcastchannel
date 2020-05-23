@@ -1,0 +1,49 @@
+@import "header";
+@import "colores";
+@import "fuentes";
+@import "contenido1p";
+@import "contenido2";
+@import "contenido3";
+@import "imagenes";
+@import "temas";
+@import "novedad";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: grid;
+    font-family: sans-serif;
+    grid-gap: 5px;
+  
+    grid-template-areas:
+    "cab"
+    "conte1"
+    "conte2"
+    "conte3"
+    "imag"
+    "tema"
+    "nove"
+    "piee";
+}
+
+// @media screen and (min-width: 800px){
+//     .contenedor{     
+//     // display: grid;
+//     // font-family: sans-serif;
+//     // grid-gap: 5px;
+  
+//     grid-template-areas:
+//     "cab"     "cab"
+//     "conte1"  "conte1"
+//     "conte2"  "conte2"
+//     "conte3"  "conte3"
+//     "imag"    "imag"
+//     "tema"    "tema"
+//     "nove"    "nove"  
+//     "piee"    "piee";   
+//     }
+// }

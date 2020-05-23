@@ -1,0 +1,44 @@
+@import "colores";
+@import "fuentes";
+$colorletra: $negro1;
+.gimagenes {
+    grid-area: imag;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6 1fr);
+    h1{
+        margin: 50px 0 0 20px;
+        letter-spacing: 0;
+        line-height: 42px;
+        @include fuente("IBMPlexSans",36px,$colorletra,"none");
+    }
+    img{
+        width: 320px;
+        height: 243px;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .gimagenes {
+        grid-area: imag;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // grid-template-rows: repeat(3 1fr);
+        grid-template-rows: 40px 1fr 1fr; 
+        h1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            margin: 0 0 0 200px;
+            letter-spacing: 0;
+            line-height: 42px;
+            @include fuente("IBMPlexSans",36px,$colorletra,"none");
+        }
+        img{
+            width: 480px;
+            height: 364px;
+        }
+    }
+    
+}
