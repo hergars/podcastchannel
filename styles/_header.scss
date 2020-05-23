@@ -2,13 +2,13 @@
 @import "fuentes";
 $letra: $negro1;
 
-  .cabeza {
+.cabeza {
     grid-area: cab;
     background: $blanco;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 45px;
-}
+    height: 70px;
+}       
 
 .logo{
     padding: 10px;
