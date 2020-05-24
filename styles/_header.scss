@@ -107,7 +107,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
     .cabeza {
         grid-area: cab;
         display: grid;

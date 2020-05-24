@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=si">
     <title>Mi Proyecto Incial</title>
 </head>
 
@@ -24,15 +24,15 @@
                     <span></span>
                     <span></span>
                     <ul>
-                        <li><a href="#">EPISODIOS</a></li>
-                        <li><a href="#">NOSOTROS</a></li>
-                        <li><a href="#">ENTREVISTAS</a></li>
-                        <li><a href="#">TOPICOS</a></li>
+                        <li><a href="#episodio">EPISODIOS</a></li>
+                        <li><a href="#nosotros">NOSOTROS</a></li>
+                        <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                        <li><a href="#topico">TOPICOS</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <section class="contenido">
+        <section class="contenido" id="episodio">
             <h1>Hello <span class="palabra">world</span> pale blue dot <span class="punto">.</span> </h1>
             <p>Un podcast que explora el mundo de la programación. Nuevos episodios todos los jueves cada 15 dias.</p>
             <button>CONOCÉ MAS</button>
@@ -41,13 +41,13 @@
             <h1>Episodios</h1>
             <div class="video">
                 <div><iframe class="p1" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
-                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                        allow="encrypted-media"></iframe></div>
                 <div><iframe class="p2" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
-                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                        allow="encrypted-media"></iframe></div>
                 <div><iframe class="p3" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
-                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                        allow="encrypted-media"></iframe></div>
                 <div><iframe class="p4" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
-                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                        allow="encrypted-media"></iframe></div>
             </div>
         </section>
         <section class="contenido3">
@@ -56,42 +56,40 @@
             </div>
             <div class="parrafoc3">
                 <h1>De dónde venimos</h1>
-                <article>Our posturings, our imagined self-importance, the delusion that we have some privileged
-                    position in
-                    the Universe, are challenged by this point of pale light.
-                    Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
-                    vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                <article>
+                    <h2>Our posturings, our imagined self-importance, the delusion that we have some privileged
+                        position in the Universe, are challenged by this point of pale light.
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                        vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                    </h2>
                 </article>
             </div>
         </section>
-        <div class="gimagenes">
+        <section class="gimagenes" id="entrevistas">
             <h1>Invitadas/os Estelares</h1>
-            <div><img src="/images/grace-hopper.png" alt=""></div>
-            <div><img src="/images/Katie-Bouman.png" alt=""></div>
-            <div><img src="/images/Margaret_Hamilton.png" alt=""></div>
-            <div><img src="/images/An E.R.A.Univac 1103 computer in the 1950s.png" alt=""></div>
-            <div><img
-                    src="/images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
-                    alt=""></div>
-            <div><img src="/images/susan-kare.png" alt=""></div>
-
-        </div>
-        <section class="temas">
+            <div><img src="/images/grace-hopper.png" alt="Grace Hopper"></div>
+            <div><img src="/images/Katie-Bouman.png" alt="Katie Bouman"></div>
+            <div><img src="/images/Margaret_Hamilton.png" alt="Margaret_Hamilton"></div>
+            <div><img src="/images/AnE.R.A.Univac1103computerinthe1950s.png" alt="Computer"></div>
+            <div><img src="/images/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposecomputer.png" alt="Computer Operators"></div>
+            <div><img src="/images/susan-kare.png" alt="susan-kare"></div>
+        </section>
+        <section class="temas" id="nosotros">
             <h1>Algunos de nuestros temas</h1>
-            <div><img src="/images/icon1.svg" alt="">
+            <div><img src="/images/icon1.svg" alt="Trabaje con nosotros">
                 <p>Trabaje con nosotros</p>
             </div>
-            <div><img src="/images/icon2.svg" alt="">
+            <div><img src="/images/icon2.svg" alt="Repensando la programacion">
                 <p>Repensando la programación</p>
             </div>
-            <div><img src="/images/icon3.svg" alt="">
+            <div><img src="/images/icon3.svg" alt="Bases del Codigo">
                 <p>Bases del código</p>
             </div>
-            <div><img src="/images/icon4.svg" alt="">
+            <div><img src="/images/icon4.svg" alt="Seguridad informatica">
                 <p>Seguridad informática</p>
             </div>
         </section>
-        <section class="novedad">
+        <section class="novedad" id="topico">
             <h1>¿Querés las últimas novedades?</h1>
             <button>ESCUCHÁ LOS EPISODIOS</button>
         </section>
@@ -101,7 +99,7 @@
                 <ul class="social">
                     <li><a href=""><span><i class="fab fa-spotify"></i></span></a></li>
                     <li><a href=""><span><i class="fab fa-instagram"></i></span></a></li>
-                    <li><a href=""><span><i class="fab fa-twitter"></i></i></span></a></li>
+                    <li><a href=""><span><i class="fab fa-twitter"></i></span></a></li>
                     <li><a href=""><span><i class="fab fa-facebook"></i></span></a></li>
                     <li><a href=""><span><i class="fab fa-telegram"></i></span></a></li>
                 </ul>
