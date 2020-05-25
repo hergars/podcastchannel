@@ -7,6 +7,8 @@ $colorletra: $negro1;
     grid-area: conte1;
     padding: 10px;
     h1{
+        width: 222px;
+        height: 42px;
         padding: 2px;
         line-height: 42px;
         @include fuente("IBMPlexSans",36px,$colorletra,"none");
@@ -18,8 +20,9 @@ $colorletra: $negro1;
         }
     }
     p{
-        width: 90%;
-        padding: 10px;
+        margin-top: 50px;
+        width: 288px;
+        height: 66px;
         line-height: 22px;
         letter-spacing: 0px;
         @include fuente("IBMPlexMono",14px,$colorletra,"none");
@@ -29,6 +32,7 @@ $colorletra: $negro1;
         padding: 2px;
         display: block;
         background: $verdeclaro;
+        margin: auto;
         width: 288px;
         height: 48;
         letter-spacing: 0;
@@ -47,6 +51,8 @@ $colorletra: $negro1;
         margin: 0 0 0 200px;
         padding: 2px;
         h1{
+            width: 740px;
+            height: 48px;
             padding: 2px;
             line-height: 84px;
             @include fuente("IBMPlexSans",64px,$colorletra,"none");
