@@ -22,8 +22,9 @@ $colorletra: $blanco;
     }
     iframe{
       display: block;
-      width: 584px;
-      height: 232px;
+      margin: auto;
+      width: 298px;
+      height: 255px;
     }
 }
 
@@ -41,21 +42,25 @@ $colorletra: $blanco;
     );
 
     h1{
-        margin: 100px 0 0 200px;
-        width: 209px;
-        height: 62px;
-        padding: 10px;
-        line-height: 42px;
-        @include fuente("IBMPlexSans",48px,$colorletra,"none");
+      // grid-column-start: 1;
+      // grid-column-end: 3;
+      margin: 100px 0 0 200px;
+      width: 209px;
+      height: 62px;
+      padding: 10px;
+      line-height: 42px;
+      @include fuente("IBMPlexSans",48px,$colorletra,"none");
     }
-    .video{
+    .video{ 
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      width: 584px;
-      height: 232px;
-      padding: 30px;
+      grid-template-rows: 1fr 1fr;
+      iframe{
+        gap: 5px;
+        width: 584px;
+        height: 232px;
+        padding: 5px;
+      }
     }
-}
-
+  }
 }
