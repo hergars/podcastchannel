@@ -7,9 +7,9 @@ $colorletra: $negro1;
     grid-area: conte1;
     padding: 10px;
     h1{
-        width: 222px;
+        width: 242px;
         height: 42px;
-        padding: 2px;
+        padding: 1px;
         line-height: 42px;
         @include fuente("IBMPlexSans",36px,$colorletra,"none");
         .palabra{
