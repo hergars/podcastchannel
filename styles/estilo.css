@@ -242,9 +242,15 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .contenido h1 {
+<<<<<<< HEAD
   width: 242px;
   height: 42px;
   padding: 1px;
+=======
+  width: 222px;
+  height: 42px;
+  padding: 2px;
+>>>>>>> f855c21ac7be722da5ccf41afb985ec023eaba5d
   line-height: 42px;
   font-family: "IBMPlexSans";
   font-size: 36px;
@@ -670,7 +676,11 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .novedad {
+<<<<<<< HEAD
   margin: 1px;
+=======
+  margin: 50px;
+>>>>>>> f855c21ac7be722da5ccf41afb985ec023eaba5d
   padding: 5px;
   -ms-grid-row: 7;
   -ms-grid-column: 1;
