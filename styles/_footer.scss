@@ -13,7 +13,7 @@ $colorletra: $negro;
         // top: 50px;
         letter-spacing: 0;
         line-height: 22px;
-        @include fuente("IBMPlexMono",14px,$colorletra,"none");
+        @include fuente(IBMPlexMono,14px,$colorletra);
     }
     .social {
         display: flex;
@@ -39,7 +39,7 @@ $colorletra: $negro;
             text-align: center;
             letter-spacing: 0;
             line-height: 28px;
-            @include fuente("IBMPlexMono",16px,$colorletra,"none");
+            @include fuente(IBMPlexMono,16px,$colorletra);
         }
         .social {
             display: flex;

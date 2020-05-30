@@ -18,13 +18,14 @@ $colorletra: $blanco;
         margin: 25px;
         padding: 10px;
         line-height: 42px;
-        @include fuente("IBMPlexSans",36px,$colorletra,"none");
+        @include fuente(IBMPlexSans,36px,$colorletra);
     }
     iframe{
       display: block;
       margin: auto;
       width: 298px;
       height: 255px;
+      border: none;
     }
 }
 
@@ -49,7 +50,7 @@ $colorletra: $blanco;
       height: 62px;
       padding: 10px;
       line-height: 42px;
-      @include fuente("IBMPlexSans",48px,$colorletra,"none");
+      @include fuente(IBMPlexSans,48px,$colorletra);
     }
     .video{ 
       display: grid;
@@ -58,6 +59,7 @@ $colorletra: $blanco;
       iframe{
         width: 584px;
         height: 232px;
+        border: none;
       }
     }
   }

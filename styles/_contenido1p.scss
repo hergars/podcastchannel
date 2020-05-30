@@ -11,8 +11,7 @@ $colorletra: $negro1;
         height: 42px;
         padding: 1px;
         line-height: 42px;
-        // font-family: 'IBM Plex Mono', monospace;
-        // @include fuente("IBMPlexSans",36px,$colorletra,"none");
+        @include fuente(IBM Plex Mono,36px,$colorletra);
         .palabra{
             text-decoration: line-through;
         }
@@ -26,9 +25,7 @@ $colorletra: $negro1;
         height: 66px;
         line-height: 22px;
         letter-spacing: 0px;
-        // font-family: IBMPlexMono;
-
-        @include fuente("IBMPlexMono",14px,$colorletra,"none");
+        @include fuente(IBM Plex Mono,14px,$colorletra);
 
     }
     button{
@@ -41,7 +38,7 @@ $colorletra: $negro1;
         letter-spacing: 0;
         text-align: center;
         line-height: 22px;
-        @include fuente("IBMPlexMono-Medium",18px,$colorletra,"none");
+        @include fuente(IBM Plex Mono,18px,$colorletra);
     }
     button:hover{
         background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
@@ -54,11 +51,12 @@ $colorletra: $negro1;
         margin: 0 0 0 200px;
         padding: 2px;
         h1{
-            width: 740px;
+            width: 1200px;
             height: 48px;
             padding: 2px;
             line-height: 84px;
-            @include fuente("IBMPlexSans",64px,$colorletra,"none");
+            letter-spacing: 0px;
+            @include fuente(IBM Plex Mono,64px,$colorletra);
             .palabra{
                 text-decoration: line-through;
             }
@@ -72,7 +70,7 @@ $colorletra: $negro1;
             padding: 10px;
             line-height: 24px;
             letter-spacing: 0px;
-            @include fuente("IBMPlexMono",16px,$colorletra,"none");
+            @include fuente(IBM Plex Mono,16px,$colorletra);
     
         }
         button{
@@ -84,7 +82,7 @@ $colorletra: $negro1;
             letter-spacing: 0;
             text-align: center;
             line-height: 24px;
-            @include fuente("IBMPlexMono-Medium",18px,$colorletra,"none");
+            @include fuente(IBMPlexMono-Medium,18px,$colorletra);
     
         }
         button:hover{

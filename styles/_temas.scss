@@ -13,7 +13,7 @@ $colorletra: $negro1;
     h1{
         letter-spacing: 0;
         line-height: 42px;
-        @include fuente("IBMPlexSans",36px,$colorletra,"none");
+        @include fuente(IBMPlexSans,36px,$colorletra);
     }
     img{
         width: 104px;
@@ -26,7 +26,7 @@ $colorletra: $negro1;
         text-align: center;
         letter-spacing: 0;
         line-height: 32px;
-        @include fuente("IBMPlexSans-SemiBold",24px,$colorletra,"none");
+        @include fuente(IBMPlexSans-SemiBold,24px,$colorletra);
     }
 }
 
@@ -45,7 +45,7 @@ $colorletra: $negro1;
             grid-column-end: 5;
             letter-spacing: 0;
             line-height: 42px;
-            @include fuente("IBMPlexSans",36px,$colorletra,"none");
+            @include fuente(IBMPlexSans,36px,$colorletra);
         }
         img{
             width: 104px;
@@ -58,7 +58,7 @@ $colorletra: $negro1;
             text-align: center;
             letter-spacing: 0;
             line-height: 32px;
-            @include fuente("IBMPlexSans-SemiBold",24px,$colorletra,"none");
+            @include fuente(IBMPlexSans-SemiBold,24px,$colorletra);
         }
     }
     

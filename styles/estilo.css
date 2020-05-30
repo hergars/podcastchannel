@@ -1,11 +1,22 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
 .cabeza {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -32,10 +43,9 @@ nav {
 
 header nav .menu ul {
   /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
-  font-family: "IBMPlexMono";
+  font-family: IBMPlexMono;
   font-size: 16px;
   color: white;
-  font-style: "cursive";
   letter-spacing: 0;
   line-height: 28px;
   width: 100%;
@@ -68,18 +78,16 @@ header nav .menu ul li a {
 }
 
 header nav .menu ul li a:hover {
-  font-family: "IBMPlexMono-Medium";
+  font-family: IBMPlexMono-Medium;
   font-size: 16px;
   color: #00F3BB;
-  font-style: "none";
   text-decoration: line-through;
 }
 
 header nav .menu ul li a:active {
-  font-family: "IBMPlexMono-Medium";
+  font-family: IBMPlexMono-Medium;
   font-size: 16px;
   color: rgba(6, 10, 36, 0.56);
-  font-style: "none";
   text-decoration: line-through;
 }
 
@@ -169,10 +177,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         justify-self: end;
   }
   header nav .menu ul {
-    font-family: "IBMPlexMono";
+    font-family: IBMPlexMono;
     font-size: 16px;
     color: #060A24;
-    font-style: "none";
     position: relative;
     top: 0;
     right: 0;
@@ -186,20 +193,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   }
   header nav .menu ul li:hover {
     background: unset;
-    font-family: "IBMPlexMono-Medium";
+    font-family: IBMPlexMono-Medium;
     font-size: 16px;
     color: #00F3BB;
-    font-style: "none";
     text-decoration: line-through;
     letter-spacing: 0;
     line-height: 28px;
   }
   header nav .menu ul li:active {
     background: unset;
-    font-family: "IBMPlexMono";
+    font-family: IBMPlexMono;
     font-size: 16px;
     color: rgba(6, 10, 36, 0.56);
-    font-style: "none";
     text-decoration: line-through;
     letter-spacing: 0;
     line-height: 28px;
@@ -220,20 +225,6 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   }
 }
 
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
-}
-
 .contenido {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -242,20 +233,13 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .contenido h1 {
-<<<<<<< HEAD
   width: 242px;
   height: 42px;
   padding: 1px;
-=======
-  width: 222px;
-  height: 42px;
-  padding: 2px;
->>>>>>> f855c21ac7be722da5ccf41afb985ec023eaba5d
   line-height: 42px;
-  font-family: "IBMPlexSans";
+  font-family: IBM Plex Mono;
   font-size: 36px;
   color: #060A24;
-  font-style: "none";
 }
 
 .contenido h1 .palabra {
@@ -272,10 +256,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   height: 66px;
   line-height: 22px;
   letter-spacing: 0px;
-  font-family: "IBMPlexMono";
+  font-family: IBM Plex Mono;
   font-size: 14px;
   color: #060A24;
-  font-style: "none";
 }
 
 .contenido button {
@@ -288,10 +271,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
-  font-family: "IBMPlexMono-Medium";
+  font-family: IBM Plex Mono;
   font-size: 18px;
   color: #060A24;
-  font-style: "none";
 }
 
 .contenido button:hover {
@@ -307,14 +289,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     padding: 2px;
   }
   .contenido h1 {
-    width: 740px;
+    width: 1200px;
     height: 48px;
     padding: 2px;
     line-height: 84px;
-    font-family: "IBMPlexSans";
+    letter-spacing: 0px;
+    font-family: IBM Plex Mono;
     font-size: 64px;
     color: #060A24;
-    font-style: "none";
   }
   .contenido h1 .palabra {
     text-decoration: line-through;
@@ -328,10 +310,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     padding: 10px;
     line-height: 24px;
     letter-spacing: 0px;
-    font-family: "IBMPlexMono";
+    font-family: IBM Plex Mono;
     font-size: 16px;
     color: #060A24;
-    font-style: "none";
   }
   .contenido button {
     padding: 2px;
@@ -342,21 +323,13 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     letter-spacing: 0;
     text-align: center;
     line-height: 24px;
-    font-family: "IBMPlexMono-Medium";
+    font-family: IBMPlexMono-Medium;
     font-size: 18px;
     color: #060A24;
-    font-style: "none";
   }
   .contenido button:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   }
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 }
 
 .contenido2 {
@@ -375,10 +348,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   margin: 25px;
   padding: 10px;
   line-height: 42px;
-  font-family: "IBMPlexSans";
+  font-family: IBMPlexSans;
   font-size: 36px;
   color: white;
-  font-style: "none";
 }
 
 .contenido2 iframe {
@@ -386,6 +358,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   margin: auto;
   width: 298px;
   height: 255px;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -405,10 +378,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     height: 62px;
     padding: 10px;
     line-height: 42px;
-    font-family: "IBMPlexSans";
+    font-family: IBMPlexSans;
     font-size: 48px;
     color: white;
-    font-style: "none";
   }
   .contenido2 .video {
     display: -ms-grid;
@@ -421,14 +393,8 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   .contenido2 .video iframe {
     width: 584px;
     height: 232px;
+    border: none;
   }
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 }
 
 .contenido3 {
@@ -456,10 +422,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   height: 84px;
   letter-spacing: 0;
   line-height: 42px;
-  font-family: "IBMPlexSans";
+  font-family: IBMPlexSans;
   font-size: 36px;
   color: #060A24;
-  font-style: "none";
 }
 
 .contenido3 .parrafoc3 article {
@@ -469,10 +434,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: justify;
   letter-spacing: 0;
   line-height: 22px;
-  font-family: "IBMPlexMono";
+  font-family: IBMPlexMono;
   font-size: 14px;
   color: #060A24;
-  font-style: "none";
 }
 
 @media screen and (min-width: 768px) {
@@ -498,10 +462,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     height: 62px;
     letter-spacing: 0;
     line-height: 42px;
-    font-family: "IBMPlexSans";
+    font-family: IBMPlexSans;
     font-size: 36px;
     color: #060A24;
-    font-style: "none";
   }
   .contenido3 .parrafoc3 article {
     width: 464px;
@@ -509,18 +472,10 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     text-align: justify;
     letter-spacing: 0;
     line-height: 22px;
-    font-family: "IBMPlexMono";
+    font-family: IBMPlexMono;
     font-size: 14px;
     color: #060A24;
-    font-style: "none";
   }
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 }
 
 .gimagenes {
@@ -537,10 +492,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   margin: 50px 0 0 20px;
   letter-spacing: 0;
   line-height: 42px;
-  font-family: "IBMPlexSans";
+  font-family: IBMPlexSans;
   font-size: 36px;
   color: #060A24;
-  font-style: "none";
 }
 
 .gimagenes img {
@@ -567,22 +521,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     margin: 0 0 0 200px;
     letter-spacing: 0;
     line-height: 42px;
-    font-family: "IBMPlexSans";
+    font-family: IBMPlexSans;
     font-size: 36px;
     color: #060A24;
-    font-style: "none";
   }
   .gimagenes img {
     width: 480px;
     height: 364px;
   }
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 }
 
 .temas {
@@ -601,10 +547,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 .temas h1 {
   letter-spacing: 0;
   line-height: 42px;
-  font-family: "IBMPlexSans";
+  font-family: IBMPlexSans;
   font-size: 36px;
   color: #060A24;
-  font-style: "none";
 }
 
 .temas img {
@@ -619,10 +564,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
   letter-spacing: 0;
   line-height: 32px;
-  font-family: "IBMPlexSans-SemiBold";
+  font-family: IBMPlexSans-SemiBold;
   font-size: 24px;
   color: #060A24;
-  font-style: "none";
 }
 
 @media screen and (min-width: 768px) {
@@ -645,10 +589,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     grid-column-end: 5;
     letter-spacing: 0;
     line-height: 42px;
-    font-family: "IBMPlexSans";
+    font-family: IBMPlexSans;
     font-size: 36px;
     color: #060A24;
-    font-style: "none";
   }
   .temas img {
     width: 104px;
@@ -661,26 +604,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     text-align: center;
     letter-spacing: 0;
     line-height: 32px;
-    font-family: "IBMPlexSans-SemiBold";
+    font-family: IBMPlexSans-SemiBold;
     font-size: 24px;
     color: #060A24;
-    font-style: "none";
   }
 }
 
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
-}
-
 .novedad {
-<<<<<<< HEAD
-  margin: 1px;
-=======
   margin: 50px;
->>>>>>> f855c21ac7be722da5ccf41afb985ec023eaba5d
   padding: 5px;
   -ms-grid-row: 7;
   -ms-grid-column: 1;
@@ -701,10 +632,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
   letter-spacing: 0;
   line-height: 42px;
-  font-family: "IBMPlexSans";
+  font-family: IBMPlexSans;
   font-size: 36px;
   color: white;
-  font-style: "none";
 }
 
 .novedad button {
@@ -719,10 +649,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
-  font-family: "IBMPlexMono-Medium";
+  font-family: IBMPlexMono-Medium;
   font-size: 18px;
   color: #060A24;
-  font-style: "none";
 }
 
 .novedad button:hover {
@@ -752,10 +681,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     text-align: center;
     letter-spacing: 0;
     line-height: 62px;
-    font-family: "IBMPlexSans";
+    font-family: IBMPlexSans;
     font-size: 48px;
     color: white;
-    font-style: "none";
   }
   .novedad button {
     margin-left: auto;
@@ -767,21 +695,13 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     letter-spacing: 0;
     text-align: center;
     line-height: 22px;
-    font-family: "IBMPlexMono-Medium";
+    font-family: IBMPlexMono-Medium;
     font-size: 18px;
     color: #060A24;
-    font-style: "none";
   }
   .novedad button:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   }
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-  font-family: "IBM Plex Sans", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 }
 
 .pie {
@@ -798,10 +718,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
   letter-spacing: 0;
   line-height: 22px;
-  font-family: "IBMPlexMono";
+  font-family: IBMPlexMono;
   font-size: 14px;
   color: black;
-  font-style: "none";
 }
 
 .pie .social {
@@ -836,10 +755,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     text-align: center;
     letter-spacing: 0;
     line-height: 28px;
-    font-family: "IBMPlexMono";
+    font-family: IBMPlexMono;
     font-size: 16px;
     color: black;
-    font-style: "none";
   }
   .pie .social {
     display: -webkit-box;

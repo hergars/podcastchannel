@@ -21,7 +21,7 @@ nav{
 }
 header nav .menu ul {
     /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
-    @include fuente("IBMPlexMono",16px,$blanco,"cursive");
+    @include fuente(IBMPlexMono,16px,$blanco);
     letter-spacing: 0;
     line-height: 28px;
     width: 100%;
@@ -49,11 +49,11 @@ header nav .menu ul li a {
     display: block;
 }
 header nav .menu  ul li a:hover {
-    @include fuente("IBMPlexMono-Medium",16px,$verdeclaro,"none");
+    @include fuente(IBMPlexMono-Medium,16px,$verdeclaro);
     text-decoration: line-through;
 } 
 header nav .menu  ul li a:active {
-    @include fuente("IBMPlexMono-Medium",16px,rgba(6,10,36,0.56),"none");
+    @include fuente(IBMPlexMono-Medium,16px,rgba(6,10,36,0.56));
     text-decoration: line-through;
 } 
 
@@ -124,7 +124,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     }
 
     header nav .menu ul {
-        @include fuente("IBMPlexMono",16px,$letra,"none");
+        @include fuente(IBMPlexMono,16px,$letra);
         position: relative;
         top: 0;
         right: 0;
@@ -138,7 +138,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     } 
     header nav .menu  ul li:hover {
         background: unset;
-        @include fuente("IBMPlexMono-Medium",16px,$verdeclaro,"none");
+        @include fuente(IBMPlexMono-Medium,16px,$verdeclaro);
         text-decoration: line-through;
         letter-spacing: 0;
         line-height: 28px;
@@ -146,11 +146,10 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     } 
     header nav .menu  ul li:active {
         background: unset;
-        @include fuente("IBMPlexMono",16px,rgba(6,10,36,0.56),"none");
+        @include fuente(IBMPlexMono,16px,rgba(6,10,36,0.56));
         text-decoration: line-through;
         letter-spacing: 0;
         line-height: 28px;
-        // border-bottom: 2px solid $verdeclaro;
     } 
     header nav .menu ul li a {
         padding: unset;
