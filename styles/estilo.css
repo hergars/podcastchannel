@@ -233,10 +233,11 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .contenido h1 {
-  width: 242px;
+  width: 320px;
   height: 42px;
   padding: 1px;
   line-height: 42px;
+  letter-spacing: 0;
   font-family: IBM Plex Mono;
   font-size: 36px;
   color: #060A24;
