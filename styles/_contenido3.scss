@@ -47,7 +47,7 @@ $colorletra: $negro1;
         padding: 5px;
         grid-area: conte3;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40% 40%;
         grid-template-rows: 400px;
 
         .telefono{
@@ -66,7 +66,7 @@ $colorletra: $negro1;
  
             }
             article{
-                width: 464px;
+                width: 424px;
                 height: 204px;
                 text-align: justify;
                 letter-spacing: 0;
