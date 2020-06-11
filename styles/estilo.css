@@ -54,7 +54,7 @@ header nav .menu ul {
   right: 0;
   overflow: hidden;
   list-style: none;
-  background: blue;
+  background: yellow;
   height: 0px;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease;
@@ -65,7 +65,7 @@ header nav .menu ul li {
 }
 
 header nav .menu ul li:hover {
-  background: blue;
+  background: yellow;
 }
 
 header nav .menu ul li a {
@@ -248,7 +248,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .contenido h1 .punto {
-  color: blue;
+  color: yellow;
 }
 
 .contenido p {
@@ -303,7 +303,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     text-decoration: line-through;
   }
   .contenido h1 .punto {
-    color: blue;
+    color: yellow;
   }
   .contenido p {
     width: 628px;
