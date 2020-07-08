@@ -6,7 +6,7 @@ $colorletra: $negro;
     margin: 5px;
     padding: 5px;
     grid-area: piee;
-    h1{
+    h2{
         margin: 20px;
         padding: 10px;
         text-align: center;
@@ -33,7 +33,7 @@ $colorletra: $negro;
     .pie {
          display: grid;
          grid-template-columns: 1fr 1fr;
-        h1{
+        h2{
             margin: 20px;
             padding: 10px;
             text-align: center;

@@ -10,10 +10,10 @@ $colorletra: $negro1;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4 1fr);
     gap: 10px;
-    h1{
+    h2{
         letter-spacing: 0;
         line-height: 42px;
-        @include fuente(IBMPlexSans,36px,$colorletra);
+        @include fuente(IBM Plex Sans,36px,$colorletra);
     }
     img{
         width: 104px;
@@ -39,13 +39,13 @@ $colorletra: $negro1;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 100px 1fr;
         // gap: 10px;
-        h1{
+        h2{
             margin: 0 0 0 200px;
             grid-column-start: 1;
             grid-column-end: 5;
             letter-spacing: 0;
             line-height: 42px;
-            @include fuente(IBMPlexSans,36px,$colorletra);
+            @include fuente(IBM Plex Sans,36px,$colorletra);
         }
         img{
             width: 104px;

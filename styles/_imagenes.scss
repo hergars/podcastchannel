@@ -6,11 +6,11 @@ $colorletra: $negro1;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6 1fr);
-    h1{
+    h2{
         margin: 50px 0 0 20px;
         letter-spacing: 0;
         line-height: 42px;
-        @include fuente(IBMPlexSans,36px,$colorletra);
+        @include fuente(IBM Plex Sans,36px,$colorletra);
     }
     img{
         width: 320px;
@@ -27,13 +27,13 @@ $colorletra: $negro1;
         grid-template-columns: 1fr 1fr 1fr;
         // grid-template-rows: repeat(3 1fr);
         grid-template-rows: 40px 1fr 1fr; 
-        h1{
+        h2{
             grid-column-start: 1;
             grid-column-end: 4;
             margin: 0 0 0 200px;
             letter-spacing: 0;
             line-height: 42px;
-            @include fuente(IBMPlexSans,36px,$colorletra);
+            @include fuente(IBM Plex Sans,36px,$colorletra);
         }
         img{
             width: 445px;

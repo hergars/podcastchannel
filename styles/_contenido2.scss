@@ -5,27 +5,39 @@ $colorletra: $blanco;
 .contenido2{
     grid-area: conte2;
     position: relative;
+    z-index: -1;  
     height: 1300px;
     background-image: linear-gradient($azul1g,$azul2g);
     clip-path: polygon(
-      0% 3%,
+      0% 5%,
       100% 0,
       100% 90%,
       0 calc(100% - 5vw)
     );
 
-    h1{
-        margin: 25px;
-        padding: 10px;
-        line-height: 42px;
-        @include fuente(IBMPlexSans,36px,$colorletra);
+    h2{
+      margin: 20px 0 0 40px;
+      position: relative;
+      z-index: 2;  
+      width: 157px;
+      height: 42px;
+      padding: 10px;
+      line-height: 42px;
+      @include fuente(IBM Plex Sans,36px,$colorletra);
     }
-    iframe{
-      display: block;
-      margin: auto;
-      width: 298px;
-      height: 255px;
-      border: none;
+
+    .video{ 
+      display: grid;
+      margin-top: 20px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      iframe{
+
+        margin: 70px 0 0 40px;
+        width: 298px;
+        height: 255px;
+        border: none;
+      }
     }
 }
 
@@ -33,27 +45,28 @@ $colorletra: $blanco;
 @media screen and (min-width: 768px){
   .contenido2{
     grid-area: conte2;
+
     height: 900px;
     background-image: linear-gradient($azul1g,$azul2g);
     clip-path: polygon(
-      0% 10%,
-      100% 0,
-      100% 90%,
+      0% 8%,
+      100% 0%,
+      100% 80%,
       0 calc(100% - 5vw)
     );
+    h2{
+      margin: 50px 0 0 200px;
 
-    h1{
-      // grid-column-start: 1;
-      // grid-column-end: 3;
-      margin: 100px 0 0 200px;
       width: 209px;
       height: 62px;
-      padding: 10px;
+      padding: 20px;
       line-height: 42px;
-      @include fuente(IBMPlexSans,48px,$colorletra);
+      @include fuente(IBM Plex Sans,48px,$colorletra);
     }
     .video{ 
+    
       display: grid;
+      margin-top: 1px;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       iframe{

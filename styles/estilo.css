@@ -1,22 +1,31 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 .cabeza {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -54,7 +63,7 @@ header nav .menu ul {
   right: 0;
   overflow: hidden;
   list-style: none;
-  background: yellow;
+  background: #0000EC;
   height: 0px;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease;
@@ -65,7 +74,7 @@ header nav .menu ul li {
 }
 
 header nav .menu ul li:hover {
-  background: yellow;
+  background: #0000EC;
 }
 
 header nav .menu ul li a {
@@ -226,29 +235,29 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .contenido {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: conte1;
   padding: 10px;
 }
 
-.contenido h1 {
+.contenido h2 {
   width: 320px;
   height: 42px;
   padding: 1px;
   line-height: 42px;
   letter-spacing: 0;
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Sans;
   font-size: 36px;
   color: #060A24;
 }
 
-.contenido h1 .palabra {
+.contenido h2 .palabra {
   text-decoration: line-through;
 }
 
-.contenido h1 .punto {
-  color: yellow;
+.contenido h2 .punto {
+  color: #0000EC;
 }
 
 .contenido p {
@@ -266,7 +275,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   padding: 2px;
   display: block;
   background: #00F3BB;
-  margin: auto;
+  margin: 0 0 0 10px;
   width: 288px;
   height: 48;
   letter-spacing: 0;
@@ -283,27 +292,27 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 @media screen and (min-width: 768px) {
   .contenido {
-    -ms-grid-row: 2;
+    -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: conte1;
     margin: 0 0 0 200px;
     padding: 2px;
   }
-  .contenido h1 {
+  .contenido h2 {
     width: 1050px;
     height: 48px;
     padding: 2px;
     line-height: 84px;
     letter-spacing: 0px;
-    font-family: IBM Plex Mono;
+    font-family: IBM Plex Sans;
     font-size: 64px;
     color: #060A24;
   }
-  .contenido h1 .palabra {
+  .contenido h2 .palabra {
     text-decoration: line-through;
   }
-  .contenido h1 .punto {
-    color: yellow;
+  .contenido h2 .punto {
+    color: #0000EC;
   }
   .contenido p {
     width: 628px;
@@ -319,6 +328,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     padding: 2px;
     display: block;
     background: #00F3BB;
+    margin: 0 0 0 10px;
     width: 226px;
     height: 56;
     letter-spacing: 0;
@@ -334,29 +344,43 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .contenido2 {
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: conte2;
   position: relative;
+  z-index: -1;
   height: 1300px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
   background-image: linear-gradient(#0000FF, #0000A3);
-  -webkit-clip-path: polygon(0% 3%, 100% 0, 100% 90%, 0 calc(100% - 5vw));
-          clip-path: polygon(0% 3%, 100% 0, 100% 90%, 0 calc(100% - 5vw));
+  -webkit-clip-path: polygon(0% 5%, 100% 0, 100% 90%, 0 calc(100% - 5vw));
+          clip-path: polygon(0% 5%, 100% 0, 100% 90%, 0 calc(100% - 5vw));
 }
 
-.contenido2 h1 {
-  margin: 25px;
+.contenido2 h2 {
+  margin: 20px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  width: 157px;
+  height: 42px;
   padding: 10px;
   line-height: 42px;
-  font-family: IBMPlexSans;
+  font-family: IBM Plex Sans;
   font-size: 36px;
   color: white;
 }
 
-.contenido2 iframe {
-  display: block;
-  margin: auto;
+.contenido2 .video {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 20px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.contenido2 .video iframe {
+  margin: 70px 0 0 40px;
   width: 298px;
   height: 255px;
   border: none;
@@ -364,28 +388,29 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 @media screen and (min-width: 768px) {
   .contenido2 {
-    -ms-grid-row: 3;
+    -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: conte2;
     height: 900px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
     background-image: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0, 100% 90%, 0 calc(100% - 5vw));
-            clip-path: polygon(0% 10%, 100% 0, 100% 90%, 0 calc(100% - 5vw));
+    -webkit-clip-path: polygon(0% 8%, 100% 0%, 100% 80%, 0 calc(100% - 5vw));
+            clip-path: polygon(0% 8%, 100% 0%, 100% 80%, 0 calc(100% - 5vw));
   }
-  .contenido2 h1 {
-    margin: 100px 0 0 200px;
+  .contenido2 h2 {
+    margin: 50px 0 0 200px;
     width: 209px;
     height: 62px;
-    padding: 10px;
+    padding: 20px;
     line-height: 42px;
-    font-family: IBMPlexSans;
+    font-family: IBM Plex Sans;
     font-size: 48px;
     color: white;
   }
   .contenido2 .video {
     display: -ms-grid;
     display: grid;
+    margin-top: 1px;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr;
@@ -400,7 +425,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 .contenido3 {
   padding: 5px;
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: conte3;
   display: -ms-grid;
@@ -417,18 +442,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   top: -130px;
 }
 
-.contenido3 .parrafoc3 h1 {
+.contenido3 .parrafoc3 h2 {
   margin: 15px;
   width: 288px;
   height: 84px;
   letter-spacing: 0;
   line-height: 42px;
-  font-family: IBMPlexSans;
+  font-family: IBM Plex Sans;
   font-size: 36px;
   color: #060A24;
 }
 
-.contenido3 .parrafoc3 article {
+.contenido3 .parrafoc3 p {
   margin: auto;
   width: 288px;
   height: 254px;
@@ -444,7 +469,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   .contenido3 {
     margin: 0 0 0 200px;
     padding: 5px;
-    -ms-grid-row: 4;
+    -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: conte3;
     display: -ms-grid;
@@ -458,16 +483,16 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     height: 560px;
     top: -180px;
   }
-  .contenido3 .parrafoc3 h1 {
+  .contenido3 .parrafoc3 h2 {
     width: 399px;
     height: 62px;
     letter-spacing: 0;
     line-height: 42px;
-    font-family: IBMPlexSans;
+    font-family: IBM Plex Sans;
     font-size: 36px;
     color: #060A24;
   }
-  .contenido3 .parrafoc3 article {
+  .contenido3 .parrafoc3 p {
     width: 424px;
     height: 204px;
     text-align: justify;
@@ -480,7 +505,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 }
 
 .gimagenes {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: imag;
   display: -ms-grid;
@@ -489,11 +514,11 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
       grid-template-rows: repeat(6 1fr);
 }
 
-.gimagenes h1 {
+.gimagenes h2 {
   margin: 50px 0 0 20px;
   letter-spacing: 0;
   line-height: 42px;
-  font-family: IBMPlexSans;
+  font-family: IBM Plex Sans;
   font-size: 36px;
   color: #060A24;
 }
@@ -507,7 +532,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 
 @media screen and (min-width: 768px) {
   .gimagenes {
-    -ms-grid-row: 5;
+    -ms-grid-row: 6;
     -ms-grid-column: 1;
     grid-area: imag;
     display: -ms-grid;
@@ -515,14 +540,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 40px 1fr 1fr;
   }
-  .gimagenes h1 {
+  .gimagenes h2 {
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 4;
     margin: 0 0 0 200px;
     letter-spacing: 0;
     line-height: 42px;
-    font-family: IBMPlexSans;
+    font-family: IBM Plex Sans;
     font-size: 36px;
     color: #060A24;
   }
@@ -535,7 +560,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 .temas {
   margin: 10px;
   padding: 5px;
-  -ms-grid-row: 6;
+  -ms-grid-row: 7;
   -ms-grid-column: 1;
   grid-area: tema;
   display: -ms-grid;
@@ -545,10 +570,10 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   gap: 10px;
 }
 
-.temas h1 {
+.temas h2 {
   letter-spacing: 0;
   line-height: 42px;
-  font-family: IBMPlexSans;
+  font-family: IBM Plex Sans;
   font-size: 36px;
   color: #060A24;
 }
@@ -574,7 +599,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   .temas {
     margin: 10px;
     padding: 5px;
-    -ms-grid-row: 6;
+    -ms-grid-row: 7;
     -ms-grid-column: 1;
     grid-area: tema;
     display: -ms-grid;
@@ -582,14 +607,14 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 100px 1fr;
   }
-  .temas h1 {
+  .temas h2 {
     margin: 0 0 0 200px;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 5;
     letter-spacing: 0;
     line-height: 42px;
-    font-family: IBMPlexSans;
+    font-family: IBM Plex Sans;
     font-size: 36px;
     color: #060A24;
   }
@@ -613,7 +638,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 .novedad {
   margin: 5px;
   padding: 5px;
-  -ms-grid-row: 7;
+  -ms-grid-row: 8;
   -ms-grid-column: 1;
   grid-area: nove;
   position: relative;
@@ -624,7 +649,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
           clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0 calc(100% - 0vw));
 }
 
-.novedad h1 {
+.novedad h2 {
   margin-top: 24px;
   width: 288px;
   height: 26px;
@@ -632,7 +657,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   text-align: center;
   letter-spacing: 0;
   line-height: 42px;
-  font-family: IBMPlexSans;
+  font-family: IBM Plex Sans;
   font-size: 36px;
   color: white;
 }
@@ -662,7 +687,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   .novedad {
     margin: 1px;
     padding: 5px;
-    -ms-grid-row: 7;
+    -ms-grid-row: 8;
     -ms-grid-column: 1;
     grid-area: nove;
     position: relative;
@@ -672,7 +697,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     -webkit-clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0 calc(100% - 0vw));
             clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0 calc(100% - 0vw));
   }
-  .novedad h1 {
+  .novedad h2 {
     margin-top: 34px;
     margin-left: auto;
     margin-right: auto;
@@ -681,7 +706,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     text-align: center;
     letter-spacing: 0;
     line-height: 62px;
-    font-family: IBMPlexSans;
+    font-family: IBM Plex Sans;
     font-size: 48px;
     color: white;
   }
@@ -707,12 +732,12 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 .pie {
   margin: 5px;
   padding: 5px;
-  -ms-grid-row: 8;
+  -ms-grid-row: 9;
   -ms-grid-column: 1;
   grid-area: piee;
 }
 
-.pie h1 {
+.pie h2 {
   margin: 20px;
   padding: 10px;
   text-align: center;
@@ -749,7 +774,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .pie h1 {
+  .pie h2 {
     margin: 20px;
     padding: 10px;
     text-align: center;
@@ -786,6 +811,6 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   display: grid;
   font-family: sans-serif;
   grid-gap: 5px;
-      grid-template-areas: "cab" "conte1" "conte2" "conte3" "imag" "tema" "nove" "piee";
+      grid-template-areas: "cab" "cuerpo" "conte1" "conte2" "conte3" "imag" "tema" "nove" "piee";
 }
 /*# sourceMappingURL=estilo.css.map */

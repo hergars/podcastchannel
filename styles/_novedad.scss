@@ -16,7 +16,7 @@ $colorletra: $negro1;
       100% 100%,
       0 calc(100% - 0vw)
     );
-    h1{
+    h2{
         margin-top: 24px;
         width: 288px;
         height: 26px;
@@ -25,7 +25,7 @@ $colorletra: $negro1;
         // top: 50px;
         letter-spacing: 0;
         line-height: 42px;
-        @include fuente(IBMPlexSans,36px,$colorletrat);
+        @include fuente(IBM Plex Sans,36px,$colorletrat);
     }
     button{
         margin-top: 110px;
@@ -60,7 +60,7 @@ $colorletra: $negro1;
           100% 100%,
           0 calc(100% - 0vw)
         );
-        h1{
+        h2{
             margin-top: 34px;
             margin-left: auto;
             margin-right: auto;
@@ -70,7 +70,7 @@ $colorletra: $negro1;
             // top: 50px;
             letter-spacing: 0;
             line-height: 62px;
-            @include fuente(IBMPlexSans,48px,$colorletrat);
+            @include fuente(IBM Plex Sans,48px,$colorletrat);
         }
         button{
             margin-left: auto;

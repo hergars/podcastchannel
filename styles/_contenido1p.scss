@@ -6,13 +6,13 @@ $colorletra: $negro1;
 .contenido{
     grid-area: conte1;
     padding: 10px;
-    h1{
+    h2{
         width: 320px;
         height: 42px;
         padding: 1px;
         line-height: 42px;
         letter-spacing: 0;
-        @include fuente(IBM Plex Mono,36px,$colorletra);
+        @include fuente(IBM Plex Sans,36px,$colorletra);
         .palabra{
             text-decoration: line-through;
         }
@@ -33,7 +33,7 @@ $colorletra: $negro1;
         padding: 2px;
         display: block;
         background: $verdeclaro;
-        margin: auto;
+        margin: 0 0 0 10px;
         width: 288px;
         height: 48;
         letter-spacing: 0;
@@ -51,13 +51,13 @@ $colorletra: $negro1;
         grid-area: conte1;
         margin: 0 0 0 200px;
         padding: 2px;
-        h1{
+        h2{
             width: 1050px;
             height: 48px;
             padding: 2px;
             line-height: 84px;
             letter-spacing: 0px;
-            @include fuente(IBM Plex Mono,64px,$colorletra);
+            @include fuente(IBM Plex Sans,64px,$colorletra);
             .palabra{
                 text-decoration: line-through;
             }
@@ -78,6 +78,7 @@ $colorletra: $negro1;
             padding: 2px;
             display: block;
             background: $verdeclaro;
+            margin: 0 0 0 10px;
             width: 226px;
             height: 56;
             letter-spacing: 0;
